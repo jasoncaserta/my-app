@@ -17,6 +17,7 @@ class App extends Component {
       password: '',
       isLoggedIn: false
     }
+    //test add to commit
   
   }
 
@@ -30,6 +31,7 @@ class App extends Component {
       //Do some logic to connect to backend and then check username and PASS against database
       this.setState({isLoggedIn:true});
     }
+    
 
   }
   submitRegister(){
